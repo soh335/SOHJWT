@@ -189,15 +189,11 @@ NSString * const SOHJWTErrorDomain = @"io.github.soh335.sohjwt";
 
 + (NSData *)encodeBase64UrlSafe:(NSData *)data error:(NSError **)error
 {
-    NSError *encodeErr;
     NSString *encoded = [data base64EncodedStringWithOptions:0];
     
-    NSRegularExpression *regexp = [NSRegularExpression regularExpressionWithPattern:@"=+\\z" options:0 error:&encodeErr];
+    NSRegularExpression *regexp = [NSRegularExpression regularExpressionWithPattern:@"=+\\z" options:0 error:error];
     
-    if (encodeErr != nil) {
-        if (error) {
-            *error = encodeErr;
-        }
+    if (*error != nil) {
         return nil;
     }
     
