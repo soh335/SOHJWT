@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A43E57F719A19DD000744269 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43E57F619A19DD000744269 /* Cocoa.framework */; };
+		A43E580119A19DD000744269 /* SOHJWT.m in Sources */ = {isa = PBXBuildFile; fileRef = A43E580019A19DD000744269 /* SOHJWT.m */; };
+		A43E580819A19DD000744269 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43E580719A19DD000744269 /* XCTest.framework */; };
+		A43E580919A19DD000744269 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43E57F619A19DD000744269 /* Cocoa.framework */; };
+		A43E580C19A19DD000744269 /* libSOHJWT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A43E57F319A19DD000744269 /* libSOHJWT.a */; };
+		A43E581219A19DD000744269 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A43E581019A19DD000744269 /* InfoPlist.strings */; };
+		A43E581419A19DD000744269 /* SOHJWTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43E581319A19DD000744269 /* SOHJWTTests.m */; };
+		A43E58E819A22EB500744269 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43E580719A19DD000744269 /* XCTest.framework */; };
+		A43E58E919A22EB500744269 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43E582619A224EF00744269 /* Foundation.framework */; };
+		A43E58EA19A22EB500744269 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43E583619A224EF00744269 /* UIKit.framework */; };
+		A43E58F319A22EB500744269 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A43E58F119A22EB500744269 /* InfoPlist.strings */; };
+		A43E58FC19A22EF700744269 /* SOHJWT.m in Sources */ = {isa = PBXBuildFile; fileRef = A43E580019A19DD000744269 /* SOHJWT.m */; };
+		A43E58FE19A22F0700744269 /* SOHJWTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43E581319A19DD000744269 /* SOHJWTTests.m */; };
+		A4FE8A9219A2322000646593 /* SOHJWTAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = A4FE8A9019A2322000646593 /* SOHJWTAlgorithm.h */; };
+		A4FE8A9319A2322000646593 /* SOHJWTAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FE8A9119A2322000646593 /* SOHJWTAlgorithm.m */; };
+		A4FE8A9419A2325A00646593 /* SOHJWTAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FE8A9119A2322000646593 /* SOHJWTAlgorithm.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A43E580A19A19DD000744269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A43E57EB19A19DD000744269 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43E57F219A19DD000744269;
+			remoteInfo = SOHJWT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A43E57F319A19DD000744269 /* libSOHJWT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSOHJWT.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43E57F619A19DD000744269 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A43E57F919A19DD000744269 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A43E57FA19A19DD000744269 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A43E57FB19A19DD000744269 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A43E57FE19A19DD000744269 /* SOHJWT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOHJWT-Prefix.pch"; sourceTree = "<group>"; };
+		A43E57FF19A19DD000744269 /* SOHJWT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOHJWT.h; sourceTree = "<group>"; };
+		A43E580019A19DD000744269 /* SOHJWT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOHJWT.m; sourceTree = "<group>"; };
+		A43E580619A19DD000744269 /* SOHJWTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOHJWTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43E580719A19DD000744269 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A43E580F19A19DD000744269 /* SOHJWTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SOHJWTTests-Info.plist"; sourceTree = "<group>"; };
+		A43E581119A19DD000744269 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A43E581319A19DD000744269 /* SOHJWTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOHJWTTests.m; sourceTree = "<group>"; };
+		A43E582619A224EF00744269 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A43E583619A224EF00744269 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A43E58DE19A22EB400744269 /* SOHJWTIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOHJWTIOS-Prefix.pch"; sourceTree = "<group>"; };
+		A43E58E719A22EB400744269 /* SOHJWTIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOHJWTIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43E58F019A22EB500744269 /* SOHJWTIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SOHJWTIOSTests-Info.plist"; sourceTree = "<group>"; };
+		A43E58F219A22EB500744269 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4FE8A9019A2322000646593 /* SOHJWTAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOHJWTAlgorithm.h; sourceTree = "<group>"; };
+		A4FE8A9119A2322000646593 /* SOHJWTAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOHJWTAlgorithm.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A43E57F019A19DD000744269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43E57F719A19DD000744269 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43E580319A19DD000744269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43E580C19A19DD000744269 /* libSOHJWT.a in Frameworks */,
+				A43E580919A19DD000744269 /* Cocoa.framework in Frameworks */,
+				A43E580819A19DD000744269 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43E58E419A22EB400744269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43E58E819A22EB500744269 /* XCTest.framework in Frameworks */,
+				A43E58EA19A22EB500744269 /* UIKit.framework in Frameworks */,
+				A43E58E919A22EB500744269 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A43E57EA19A19DD000744269 = {
+			isa = PBXGroup;
+			children = (
+				A43E57FC19A19DD000744269 /* SOHJWT */,
+				A43E580D19A19DD000744269 /* SOHJWTTests */,
+				A43E58DC19A22EB400744269 /* SOHJWTIOS */,
+				A43E58EE19A22EB500744269 /* SOHJWTIOSTests */,
+				A43E57F519A19DD000744269 /* Frameworks */,
+				A43E57F419A19DD000744269 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A43E57F419A19DD000744269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A43E57F319A19DD000744269 /* libSOHJWT.a */,
+				A43E580619A19DD000744269 /* SOHJWTTests.xctest */,
+				A43E58E719A22EB400744269 /* SOHJWTIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A43E57F519A19DD000744269 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A43E57F619A19DD000744269 /* Cocoa.framework */,
+				A43E580719A19DD000744269 /* XCTest.framework */,
+				A43E582619A224EF00744269 /* Foundation.framework */,
+				A43E583619A224EF00744269 /* UIKit.framework */,
+				A43E57F819A19DD000744269 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A43E57F819A19DD000744269 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A43E57F919A19DD000744269 /* Foundation.framework */,
+				A43E57FA19A19DD000744269 /* CoreData.framework */,
+				A43E57FB19A19DD000744269 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A43E57FC19A19DD000744269 /* SOHJWT */ = {
+			isa = PBXGroup;
+			children = (
+				A43E57FF19A19DD000744269 /* SOHJWT.h */,
+				A43E580019A19DD000744269 /* SOHJWT.m */,
+				A4FE8A9019A2322000646593 /* SOHJWTAlgorithm.h */,
+				A4FE8A9119A2322000646593 /* SOHJWTAlgorithm.m */,
+				A43E57FD19A19DD000744269 /* Supporting Files */,
+			);
+			path = SOHJWT;
+			sourceTree = "<group>";
+		};
+		A43E57FD19A19DD000744269 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A43E57FE19A19DD000744269 /* SOHJWT-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A43E580D19A19DD000744269 /* SOHJWTTests */ = {
+			isa = PBXGroup;
+			children = (
+				A43E581319A19DD000744269 /* SOHJWTTests.m */,
+				A43E580E19A19DD000744269 /* Supporting Files */,
+			);
+			path = SOHJWTTests;
+			sourceTree = "<group>";
+		};
+		A43E580E19A19DD000744269 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A43E580F19A19DD000744269 /* SOHJWTTests-Info.plist */,
+				A43E581019A19DD000744269 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A43E58DC19A22EB400744269 /* SOHJWTIOS */ = {
+			isa = PBXGroup;
+			children = (
+				A43E58DD19A22EB400744269 /* Supporting Files */,
+			);
+			path = SOHJWTIOS;
+			sourceTree = "<group>";
+		};
+		A43E58DD19A22EB400744269 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A43E58DE19A22EB400744269 /* SOHJWTIOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A43E58EE19A22EB500744269 /* SOHJWTIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A43E58EF19A22EB500744269 /* Supporting Files */,
+			);
+			path = SOHJWTIOSTests;
+			sourceTree = "<group>";
+		};
+		A43E58EF19A22EB500744269 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A43E58F019A22EB500744269 /* SOHJWTIOSTests-Info.plist */,
+				A43E58F119A22EB500744269 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A43E57F119A19DD000744269 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FE8A9219A2322000646593 /* SOHJWTAlgorithm.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A43E57F219A19DD000744269 /* SOHJWT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43E581719A19DD000744269 /* Build configuration list for PBXNativeTarget "SOHJWT" */;
+			buildPhases = (
+				A43E57EF19A19DD000744269 /* Sources */,
+				A43E57F019A19DD000744269 /* Frameworks */,
+				A43E57F119A19DD000744269 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOHJWT;
+			productName = SOHJWT;
+			productReference = A43E57F319A19DD000744269 /* libSOHJWT.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A43E580519A19DD000744269 /* SOHJWTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43E581A19A19DD000744269 /* Build configuration list for PBXNativeTarget "SOHJWTTests" */;
+			buildPhases = (
+				A43E580219A19DD000744269 /* Sources */,
+				A43E580319A19DD000744269 /* Frameworks */,
+				A43E580419A19DD000744269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A43E580B19A19DD000744269 /* PBXTargetDependency */,
+			);
+			name = SOHJWTTests;
+			productName = SOHJWTTests;
+			productReference = A43E580619A19DD000744269 /* SOHJWTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A43E58E619A22EB400744269 /* SOHJWTIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43E58F919A22EB500744269 /* Build configuration list for PBXNativeTarget "SOHJWTIOSTests" */;
+			buildPhases = (
+				A43E58E319A22EB400744269 /* Sources */,
+				A43E58E419A22EB400744269 /* Frameworks */,
+				A43E58E519A22EB400744269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOHJWTIOSTests;
+			productName = SOHJWTIOSTests;
+			productReference = A43E58E719A22EB400744269 /* SOHJWTIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A43E57EB19A19DD000744269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = soh335;
+			};
+			buildConfigurationList = A43E57EE19A19DD000744269 /* Build configuration list for PBXProject "SOHJWT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A43E57EA19A19DD000744269;
+			productRefGroup = A43E57F419A19DD000744269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A43E57F219A19DD000744269 /* SOHJWT */,
+				A43E580519A19DD000744269 /* SOHJWTTests */,
+				A43E58E619A22EB400744269 /* SOHJWTIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A43E580419A19DD000744269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43E581219A19DD000744269 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43E58E519A22EB400744269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43E58F319A22EB500744269 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A43E57EF19A19DD000744269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FE8A9319A2322000646593 /* SOHJWTAlgorithm.m in Sources */,
+				A43E580119A19DD000744269 /* SOHJWT.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43E580219A19DD000744269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43E581419A19DD000744269 /* SOHJWTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43E58E319A22EB400744269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43E58FE19A22F0700744269 /* SOHJWTTests.m in Sources */,
+				A43E58FC19A22EF700744269 /* SOHJWT.m in Sources */,
+				A4FE8A9419A2325A00646593 /* SOHJWTAlgorithm.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A43E580B19A19DD000744269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A43E57F219A19DD000744269 /* SOHJWT */;
+			targetProxy = A43E580A19A19DD000744269 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A43E581019A19DD000744269 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43E581119A19DD000744269 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A43E58F119A22EB500744269 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43E58F219A22EB500744269 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A43E581519A19DD000744269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A43E581619A19DD000744269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A43E581819A19DD000744269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOHJWT/SOHJWT-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A43E581919A19DD000744269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOHJWT/SOHJWT-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A43E581B19A19DD000744269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOHJWT/SOHJWT-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SOHJWTTests/SOHJWTTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A43E581C19A19DD000744269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOHJWT/SOHJWT-Prefix.pch";
+				INFOPLIST_FILE = "SOHJWTTests/SOHJWTTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		A43E58FA19A22EB500744269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOHJWTIOS/SOHJWTIOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SOHJWTIOSTests/SOHJWTIOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A43E58FB19A22EB500744269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOHJWTIOS/SOHJWTIOS-Prefix.pch";
+				INFOPLIST_FILE = "SOHJWTIOSTests/SOHJWTIOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A43E57EE19A19DD000744269 /* Build configuration list for PBXProject "SOHJWT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43E581519A19DD000744269 /* Debug */,
+				A43E581619A19DD000744269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43E581719A19DD000744269 /* Build configuration list for PBXNativeTarget "SOHJWT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43E581819A19DD000744269 /* Debug */,
+				A43E581919A19DD000744269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43E581A19A19DD000744269 /* Build configuration list for PBXNativeTarget "SOHJWTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43E581B19A19DD000744269 /* Debug */,
+				A43E581C19A19DD000744269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43E58F919A22EB500744269 /* Build configuration list for PBXNativeTarget "SOHJWTIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43E58FA19A22EB500744269 /* Debug */,
+				A43E58FB19A22EB500744269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A43E57EB19A19DD000744269 /* Project object */;
+}
