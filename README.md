@@ -2,7 +2,7 @@
 
 simple JWT (json web token) encoder/decoder for objective-c
 
-## require
+## REQUIRE
 
 * OS X 10.9 or later
 * iOS 7.0 or later
