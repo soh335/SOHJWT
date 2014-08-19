@@ -105,6 +105,35 @@
     XCTAssertEqualObjects(decoded, claims);
 }
 
+- (void)testHmacSha256InvalidSecret
+{
+    id header = @{
+                  @"alg":@"HS256",
+                  @"typ":@"JWT",
+                  };
+    
+    id claims = @{
+                  @"iss":@"joe",
+                  @"exp":@1300819380,
+                  @"http://example.com/is_root":@YES,
+                  };
+    
+    NSError *error = nil;
+    NSData *encoded = [SOHJWT encode:header claims:claims secret:[@"secret" dataUsingEncoding:NSUTF8StringEncoding] error:&error];
+    
+    XCTAssertNil(error);
+    
+    NSString *encodedString = [[NSString alloc] initWithData:encoded encoding:NSUTF8StringEncoding];
+    
+    NSLog(@"%@", encodedString);
+    
+    id decoded = [SOHJWT decode:encoded secret:[@"dame" dataUsingEncoding:NSUTF8StringEncoding] error:&error];
+    
+    XCTAssertNotNil(error);
+    
+    XCTAssertNil(decoded);
+}
+
 - (void)testNonSupportAlgorithm
 {
     id header = @{
