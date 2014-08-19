@@ -16,7 +16,7 @@ typedef enum SOHJWTErrorCode : NSUInteger {
 
 @interface SOHJWT : NSObject
 
-+ (NSData *)encode:(NSDictionary *)header claims:(id)claims secret:(NSData *)secret error:(NSError **)error;
++ (NSData *)encodeWithHeader:(NSDictionary *)header claims:(id)claims secret:(NSData *)secret error:(NSError **)error;
 + (id)decode:(NSData *)jwt secret:(NSData *)secret error:(NSError **)error;
 
 @end

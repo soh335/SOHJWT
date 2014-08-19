@@ -13,7 +13,7 @@ NSString * const SOHJWTErrorDomain = @"io.github.soh335.sohjwt";
 
 @implementation SOHJWT
 
-+ (NSData *)encode:(NSDictionary *)header claims:(id)claims secret:(NSData *)secret error:(NSError **)error
++ (NSData *)encodeWithHeader:(NSDictionary *)header claims:(id)claims secret:(NSData *)secret error:(NSError **)error
 {
     NSError *encodeErr = nil;
     

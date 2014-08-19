@@ -38,7 +38,7 @@
                   @"http://example.com/is_root":@YES,
                   };
     
-    NSData *encoded = [SOHJWT encode:header claims:claims secret:nil error:nil];
+    NSData *encoded = [SOHJWT encodeWithHeader:header claims:claims secret:nil error:nil];
     
     XCTAssertNil(encoded);
 }
@@ -57,7 +57,7 @@
                   };
     
     NSError *error = nil;
-    NSData *encoded = [SOHJWT encode:header claims:claims secret:nil error:&error];
+    NSData *encoded = [SOHJWT encodeWithHeader:header claims:claims secret:nil error:&error];
     
     XCTAssertNil(error);
     
@@ -88,7 +88,7 @@
                   };
     
     NSError *error = nil;
-    NSData *encoded = [SOHJWT encode:header claims:claims secret:[@"secret" dataUsingEncoding:NSUTF8StringEncoding] error:&error];
+    NSData *encoded = [SOHJWT encodeWithHeader:header claims:claims secret:[@"secret" dataUsingEncoding:NSUTF8StringEncoding] error:&error];
     
     XCTAssertNil(error);
     
@@ -119,7 +119,7 @@
                   };
     
     NSError *error = nil;
-    NSData *encoded = [SOHJWT encode:header claims:claims secret:[@"secret" dataUsingEncoding:NSUTF8StringEncoding] error:&error];
+    NSData *encoded = [SOHJWT encodeWithHeader:header claims:claims secret:[@"secret" dataUsingEncoding:NSUTF8StringEncoding] error:&error];
     
     XCTAssertNil(error);
     
@@ -148,7 +148,7 @@
                   };
     
     NSError *error = nil;
-    [SOHJWT encode:header claims:claims secret:[@"secret" dataUsingEncoding:NSUTF8StringEncoding] error:&error];
+    [SOHJWT encodeWithHeader:header claims:claims secret:[@"secret" dataUsingEncoding:NSUTF8StringEncoding] error:&error];
     
     XCTAssertNotNil(error);
 }
